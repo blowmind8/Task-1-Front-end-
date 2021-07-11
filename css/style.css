@@ -2,7 +2,7 @@ body {
   /*min-width: 1040px;*/
   margin: 0;
   padding: 0;
-  line-height: 24px;
+  /* line-height: 24px; */
   font-family: "Arial", sans-serif;
   color: black;
   background-color: white;
@@ -31,15 +31,20 @@ html{
   background-color:purple;
 }  */
 
-.bb{
+/* .bb{
   background-color:purple;
   align-items: center;
-}
+} */
 
-.page-header a, .sign_up {
+nav a, .sign_up {
   font-family: Quicksand;
   font-weight: 500;
   text-decoration: none;
+  background-color:white;
+  width: 20em;
+  height: 3.5rem;
+  /*line-height: 3.75rem;*/
+   border-radius: 17%/50%;
 }
 
 
@@ -93,10 +98,15 @@ nav{
 }
 
 .card{
-  width: 38rem;
+  width: 25rem;
   margin-top:2rem;
   background-color:transparent;
+  
+}
+
+.header-card{
   border:none;
+  width: 38rem;
 }
 
 .quicksand700{
@@ -125,4 +135,13 @@ nav{
 .btn_white{
   color:#0F7BFF;
   background-color:white;
+}
+
+.feauters{
+  margin-top: 10rem;
+  min-height: 30rem;
+}
+
+.feauters-row{
+  height: 23rem;
 }
