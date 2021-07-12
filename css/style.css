@@ -31,15 +31,17 @@ html{
   background-color:purple;
 }  */
 
-/* .bb{
+.bb{
   background-color:purple;
   align-items: center;
-} */
-
+}
+a {
+  text-decoration: none;
+}
 nav a, .sign_up {
   font-family: Quicksand;
   font-weight: 500;
-  text-decoration: none;
+ 
   background-color:white;
   width: 20em;
   height: 3.5rem;
@@ -114,9 +116,14 @@ nav{
   font-weight: 700;
 }
 
+.quicksand500{
+  font-family: Quicksand;
+  font-weight: 500;
+}
+
 .quicksand400{
   font-family: Quicksand;
-  font-weight: 700;
+  font-weight: 400;
 }
 .card-text{
   margin-top: 2rem;
@@ -138,10 +145,29 @@ nav{
 }
 
 .feauters{
-  margin-top: 10rem;
   min-height: 30rem;
 }
 
 .feauters-row{
   height: 23rem;
+}
+
+.advantages-cards{
+  margin:0 auto;
+  background-color:#F5FCFD;
+  padding-top: 10rem;
+  padding-bottom: 10rem;;
+}
+
+.advantages-cards .card{
+  border: none;
+  background-color:white;
+  box-shadow: 0 0 10px -7px rgba(0,0,0,0.5); 
+}
+.advantages-blocks{
+  margin-top:-3rem;
+}
+.advantages-blocks .card{
+  border: none;
+  width:33rem;
 }
