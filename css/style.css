@@ -125,6 +125,11 @@ nav{
   font-family: Quicksand;
   font-weight: 400;
 }
+
+.quicksand300{
+  font-family: Quicksand;
+  font-weight: 300;
+}
 .card-text{
   margin-top: 2rem;
   color:#929292;
@@ -144,12 +149,8 @@ nav{
   background-color:white;
 }
 
-.feauters{
-  min-height: 30rem;
-}
-
 .feauters-row{
-  height: 23rem;
+  height: 25rem;
 }
 
 .advantages-cards{
@@ -162,7 +163,8 @@ nav{
 .advantages-cards .card{
   border: none;
   background-color:white;
-  box-shadow: 0 0 10px -7px rgba(0,0,0,0.5); 
+  box-shadow: 0 0 13px -9px rgba(0,0,0,0.5); 
+  padding:3rem;
 }
 .advantages-blocks{
   margin-top:-3rem;
@@ -170,4 +172,22 @@ nav{
 .advantages-blocks .card{
   border: none;
   width:33rem;
+}
+
+.how-does-it-work{
+  background-color:#F5FCFD;
+  padding:5rem 0;
+  margin-top: -3rem;
+}
+.how-does-it-work .card{
+  border: none;
+  width:48rem;
+}
+
+.three-cards-row {
+  font-size: 0.75rem;
+}
+
+.three-cards-row .card-body{
+  width:15rem;
 }
