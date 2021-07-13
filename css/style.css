@@ -103,7 +103,8 @@ nav{
   border:none;  
 }
 
-.pricing .card {
+.pricing .card, .news .card {
+  margin-top: 0;
   width:auto;
 }
 
@@ -237,6 +238,9 @@ nav{
   background-color:#F5FCFD;
 }
 
+.pricing{
+  margin-top: 10rem;
+}
 .bb{
   background-color:purple;
 }
