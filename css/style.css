@@ -147,7 +147,7 @@ nav{
   
   width: 11em;
   
-  /*line-height: 3.75rem;*/
+  /* height: 3.75rem; */
   border-radius:17%/50%; 
   margin:0 !important;
 }
@@ -240,6 +240,14 @@ nav{
 
 .pricing{
   margin-top: 10rem;
+}
+.news{
+  margin-bottom: 7rem;
+}
+
+.free-trial{
+  padding: 7rem 0;
+  background-color:#F5FCFD;
 }
 .bb{
   background-color:purple;
