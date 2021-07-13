@@ -35,7 +35,7 @@ html{
 a {
   text-decoration: none;
 }
-nav a, .sign_up {
+.sign_up {
   font-family: Quicksand;
   font-weight: 500;
  
@@ -47,8 +47,13 @@ nav a, .sign_up {
 }
 
 
-nav :not(a:first-child){
+header nav :not(a:first-child){
   color:gray;
+ 
+}
+
+footer nav a{
+  color:white;
  
 }
 
@@ -254,6 +259,11 @@ nav{
   padding: 7rem 0;
   background-color:#0F7BFF;
 
+}
+
+footer {
+  background-color:#0063DD;
+  padding: 3rem 0;
 }
 
 .form-control {
