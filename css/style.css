@@ -152,7 +152,7 @@ nav{
   margin:0 !important;
 }
 
-.btn_white{
+.btn-white{
   color:#0F7BFF;
   background-color:white;
 }
@@ -249,6 +249,26 @@ nav{
   padding: 7rem 0;
   background-color:#F5FCFD;
 }
+
+.subscribe{
+  padding: 7rem 0;
+  background-color:#0F7BFF;
+
+}
+
+.form-control {
+  height: 3rem;
+  border-radius:5%/50%;
+  font-size: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }
+
 .bb{
   background-color:purple;
 }
