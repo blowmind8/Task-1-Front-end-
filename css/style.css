@@ -31,10 +31,7 @@ html{
   background-color:purple;
 }  */
 
-.bb{
-  background-color:purple;
-  align-items: center;
-}
+
 a {
   text-decoration: none;
 }
@@ -103,12 +100,21 @@ nav{
   width: 25rem;
   margin-top:2rem;
   background-color:transparent;
-  
+  border:none;  
+}
+
+.pricing .card {
+  width:auto;
 }
 
 .header-card{
-  border:none;
   width: 38rem;
+}
+
+.rate-cards {
+  width:20rem;
+  box-shadow: 0 0 13px -9px rgba(0,0,0,0.5); 
+  padding:2rem;
 }
 
 .quicksand700{
@@ -139,15 +145,37 @@ nav{
 .btn{
   
   width: 11em;
-  height: 3.5rem;
+  
   /*line-height: 3.75rem;*/
-   border-radius: 17%/50%;
+  border-radius:17%/50%; 
+  margin:0 !important;
 }
 
 .btn_white{
   color:#0F7BFF;
   background-color:white;
 }
+
+.btn-pricing-left{
+  /* border-radius: 0% 17%/50% 17%/50% 0%; */
+  /* display:inline-block; */
+  width: 8.5rem;
+  border-top-left-radius: 17%/50% ;
+  border-top-right-radius: 0;
+  border-bottom-left-radius:17%/50%;
+  border-bottom-right-radius: 0;
+  
+}
+
+.btn-pricing-right{
+    /* border-radius: 0% 17%/50% 17%/50% 0%; */
+    /* display:inline-block; */
+    width: 8.5rem;
+    border-top-left-radius: 0 ;
+    border-top-right-radius: 17%/50%;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:17%/50%;
+    }
 
 .feauters-row{
   height: 25rem;
@@ -160,8 +188,8 @@ nav{
   padding-bottom: 10rem;;
 }
 
-.advantages-cards .card{
-  border: none;
+.advantages-cards .card, .trusted .card {
+  
   background-color:white;
   box-shadow: 0 0 13px -9px rgba(0,0,0,0.5); 
   padding:3rem;
@@ -170,14 +198,26 @@ nav{
   margin-top:-3rem;
 }
 .advantages-blocks .card{
-  border: none;
   width:33rem;
 }
 
 .how-does-it-work{
+  position: relative;
   background-color:#F5FCFD;
   padding:5rem 0;
   margin-top: -3rem;
+}
+
+.how-does-it-work::before{
+  content: "";
+  position: absolute;
+  border-bottom: 2px dashed #0F7BFF;
+  top: 325px;
+  height: 1rem;
+  left: 500px;
+  width: 25rem;
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
 }
 .how-does-it-work .card{
   border: none;
@@ -190,4 +230,17 @@ nav{
 
 .three-cards-row .card-body{
   width:15rem;
+}
+
+.trusted{
+  margin: 7rem 0;
+  background-color:#F5FCFD;
+}
+
+.bb{
+  background-color:purple;
+}
+
+.cc{
+  background-color:green;
 }
