@@ -35,19 +35,17 @@ html{
 a {
   text-decoration: none;
 }
-.sign_up {
-  font-family: Quicksand;
-  font-weight: 500;
- 
-  background-color:white;
-  width: 20em;
-  height: 3.5rem;
-  /*line-height: 3.75rem;*/
-   border-radius: 17%/50%;
+
+#sign-in{
+  border-radius: 17%/50%;
+  color:white;
+  background: rgb(0, 0, 0, 0.2);
+  margin-right: 15rem;
+  border-color:rgb(0, 0, 0, 0.2);
 }
 
 
-header nav :not(a:first-child){
+.gray {
   color:gray;
  
 }
@@ -61,15 +59,6 @@ nav{
   font-size: 1rem;
 }
 
-#sign_up{
-  color:white;
-  width: 11em;
-  background: rgb(0, 0, 0, 0.2);
-  border:none;
-  border-radius: 17%/50%;
-  margin-right: 3.3rem;
-  border-color:rgb(0, 0, 0, 0.2);
-}
 
 
 /*.clearfix::after {
@@ -83,7 +72,7 @@ nav{
 .page-header {
   background-image: url("../img/Homepage header.jpg");
   min-height: 750px;
-  
+  position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -150,9 +139,9 @@ nav{
 
 .btn{
   
-  width: 11em;
+  width: 12rem;
   
-  /* height: 3.75rem; */
+  line-height: 2.75rem;
   border-radius:17%/50%; 
   margin:0 !important;
 }
@@ -165,7 +154,7 @@ nav{
 .btn-pricing-left{
   /* border-radius: 0% 17%/50% 17%/50% 0%; */
   /* display:inline-block; */
-  width: 8.5rem;
+  width: 100%;
   border-top-left-radius: 17%/50% ;
   border-top-right-radius: 0;
   border-bottom-left-radius:17%/50%;
@@ -176,7 +165,7 @@ nav{
 .btn-pricing-right{
     /* border-radius: 0% 17%/50% 17%/50% 0%; */
     /* display:inline-block; */
-    width: 8.5rem;
+    width: 100%;
     border-top-left-radius: 0 ;
     border-top-right-radius: 17%/50%;
     border-bottom-left-radius:0;
@@ -236,6 +225,14 @@ nav{
 
 .three-cards-row .card-body{
   width:15rem;
+}
+
+.small-news p {
+  width:23rem;
+}
+
+.small-news h5{
+width: 25rem;
 }
 
 .trusted{
